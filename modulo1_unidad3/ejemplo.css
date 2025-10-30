@@ -1,0 +1,37 @@
+/* poner en rojo h1*/
+h1 {
+    color: red;
+    /*color*/
+    background-color: yellow;
+    /*color de fondo*/
+    text-align: center;
+    /*Posicion del titulo*/
+    text-transform: uppercase;
+    /*texto en mayuscula*/
+
+}
+
+h2 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Tipo de letra*/
+    font-size: 26px;
+    /*tamaño de la letra*/
+}
+p{
+    color: darkgreen;
+}
+.destacados{
+    font-weight: bold ;/*Poner en negrita una parte del texto*/
+}
+
+#caja{
+    background-color: gold;
+    width: 400px;
+    height: 400px;
+    padding: 20px;/*Separacion desde el fonde hacia adentro, alineacion del parrafo*/
+    margin: 100px;
+    border-radius: 50px;
+    border: 5px solid black;
+    box-sizing: border-box;/*Este se utiliza siempre que uso padding o border*/
+}
